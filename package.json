@@ -1,0 +1,22 @@
+{
+  "name": "ldapserver",
+  "version": "1.0.0",
+  "description": "Backend d'un serveur ldap",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Firenze",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "express-session": "^1.17.0",
+    "jsonwebtoken": "^8.5.1",
+    "ldapjs": "^1.0.2",
+    "nodemon": "^2.0.1",
+    "passport": "^0.4.0",
+    "passport-ldapauth": "^2.1.3"
+  }
+}
